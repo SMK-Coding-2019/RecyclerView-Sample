@@ -3,11 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FragmentSad">
+    tools:context=".FragmentFirework">
 
-    <TextView
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Sad" />
+        android:src="@drawable/ic_undraw_fireworks_q5ji"/>
 
 </FrameLayout>

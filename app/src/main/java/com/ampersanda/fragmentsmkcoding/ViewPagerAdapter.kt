@@ -6,7 +6,7 @@ import androidx.fragment.app.FragmentPagerAdapter
 
 class ViewPagerAdapter(fragmentManager: FragmentManager) : FragmentPagerAdapter(fragmentManager) {
 
-    private val fragments = listOf(FragmentSad(), FragmentSmile())
+    private val fragments = listOf(FragmentFirework(), FragmentHappy())
 
     override fun getItem(position: Int): Fragment {
         return fragments[position]
@@ -18,8 +18,8 @@ class ViewPagerAdapter(fragmentManager: FragmentManager) : FragmentPagerAdapter(
 
     override fun getPageTitle(position: Int): CharSequence? {
         return when (position) {
-            0 -> "Sad"
-            1 -> "Smile"
+            0 -> "Kembang Api"
+            1 -> "HBD"
             else -> "Unknown"
         }
     }

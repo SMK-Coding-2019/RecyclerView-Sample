@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         changeFragment()
 
-        findViewById<View>(R.id.fragment_frame).setOnClickListener {
+        findViewById<View>(R.id.button_change).setOnClickListener {
             counter++
             changeFragment()
         }
